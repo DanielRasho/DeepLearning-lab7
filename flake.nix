@@ -31,6 +31,7 @@
         p.pandas
         p.datasets
         p.nltk
+        p.gymnasium
       ]);
     in {
       default = pkgs.mkShell {
